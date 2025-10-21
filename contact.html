@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact McBlock's</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img
+      src="https://lh3.googleusercontent.com/sitesv/AICyYdbd57hcVaXZmv2yT4UvVI6aOJv-sXNMxmE4NdbD5l2Vm4bOU3mykuWuXTYplDTAvDSiSb1l9uJ-u1ZnZ6-keN1Vv-Ym9o2BXdZNRJeYpmaMQt5bvE_JibOuuhTPqOjv1_QwYb3yfHuWgOOjlWJQU6NrDDWcN8KDK577dTRwweKFbds8hSZgYBeL=w1280"
+      alt="McBlock's Logo"
+    />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="locations.html">Locations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container" style="padding: 3rem 1rem; max-width: 600px;">
+    <h2 style="color:#e52929; margin-bottom: 1.5rem;">Get in Touch</h2>
+
+    <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your full name"
+        required
+        style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 6px;"
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="your.email@example.com"
+        required
+        style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 6px;"
+      />
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Write your message here..."
+        required
+        style="padding: 0.5rem; border: 1px solid #ccc; border-radius: 6px;"
+      ></textarea>
+
+      <button
+        type="submit"
+        style="
+          background: #f7b500;
+          border: none;
+          padding: 0.75rem 1.5rem;
+          font-weight: 700;
+          font-size: 1.1rem;
+          border-radius: 30px;
+          cursor: pointer;
+          transition: background 0.3s ease;
+        "
+        onmouseover="this.style.background='#ffdb4d'"
+        onmouseout="this.style.background='#f7b500'"
+      >
+        Send Message
+      </button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 McBlock's. All rights reserved.</p>
+  </footer>
+</body>
+</html>
